@@ -1,9 +1,15 @@
 def separated(file):
     poem = open(file)
 
+    word_count = {}
 
-    #fill in body of code here 
+    for line in poem: 
+        line = line.strip()
+        words = line.split(' ')
 
+
+#need to count word 
+#need to return key and value 
 
     poem.close()
 separated("test.txt")
